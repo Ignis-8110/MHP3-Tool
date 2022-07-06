@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "apMkbRrZYF246uw1Gc32URfgxpEFwDPwNAAIsZusPoVsuC6sUopMhx8MBh/MrCUH1qDwhL5uXCinWJn2kq+Ukg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\E\\source\\repos\\lms\\lms\\lms.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\E\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.116\\stub.system.data.sqlite.core.netstandard.1.0.116.nupkg.sha512",
+    "C:\\Users\\E\\.nuget\\packages\\system.data.sqlite.core\\1.0.116\\system.data.sqlite.core.1.0.116.nupkg.sha512"
+  ],
+  "logs": []
+}
