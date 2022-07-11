@@ -19,12 +19,11 @@ namespace lms.Calculator
         public float rConnect = 1.0f;
         public float rSpecial = 1.0f;
         #endregion
-
+        
         #region Element
         public float eAttack = 0;
         public float eMotion = 0;
         public float eHitzone = 0;
-        public float eSharp = 0;
         public float eSkills = 0;
         public float eSpecial = 0;
         #endregion
@@ -33,6 +32,14 @@ namespace lms.Calculator
         private float defensePercentage = 1.0f;
         private float monsterRage = 1.0f;
         private float monsterStatus = 1.0f;
+        #endregion
+
+        #region Add
+        public float attkCharm = 6;
+        public float attkTalon = 9;
+        public float attkSeed = 10;
+        public float attkDemonDrug = 5;
+        public DrinkHandler attkDrink = DrinkHandler.Instance;
         #endregion
         private float SharpnessRawConversion(WeaponSharpness sharp)
         {
@@ -76,15 +83,23 @@ namespace lms.Calculator
 
             }
         }
+
+        private void AddRaw()
+        {
+            if (InputHandler.bAttkUpDrink)
+            {
+                rAttack += attkDrink.ActiveDrink.AddedRaw;
+            }
+        }
         private float CalculateRaw()
         {
-            
+            AddRaw();
             return rAttack * rMotion * rHitzone * rAffinity * SharpnessRawConversion(rSharp) * rConnect * rSpecial;
         }
 
         private float CalculateEle()
         {
-            return eAttack * eMotion * eHitzone * eSharp * eSkills * eSpecial;
+            return eAttack * eMotion * eHitzone * SharpnessEleConversion(rSharp) * eSkills * eSpecial;
         }
         //[ (ATTACK X MOTION X HITZONE X AFFINITY X SHARP X CONNECT X SPECIAL) + (ELEMENT X EMOTION X EHITZONE X ESHARP X ESKILLS X ESPECIAL) ]
 

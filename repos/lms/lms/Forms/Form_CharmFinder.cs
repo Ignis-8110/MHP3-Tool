@@ -37,7 +37,7 @@ namespace lms.Forms
 
         private void InitializeSQLConnection()
         {
-            sqlConnection = new SQLiteConnection("Data Source = C:\\Users\\E\\source\\repos\\lms\\lms\\Resources\\mhp3_charms.db");
+            sqlConnection = new SQLiteConnection("Data Source = C:\\Users\\Mc\\Documents\\csharp-learn\\repos\\lms\\lms\\Resources\\mhp3_charms.db");
         }
 
         private void LoadData()

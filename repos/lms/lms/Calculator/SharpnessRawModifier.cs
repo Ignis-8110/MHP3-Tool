@@ -14,5 +14,6 @@ namespace lms.Calculator
         public const float Green = 1.05f;
         public const float Blue = 1.20f;
         public const float White = 1.32f;
+        
     };
 }

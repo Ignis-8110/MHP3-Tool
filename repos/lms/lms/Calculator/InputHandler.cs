@@ -13,6 +13,13 @@ namespace lms.Calculator
         public static bool bHitzone;
         private static TextBox currentTextBox;
 
+        public static bool bAttkUpDrink;
+        public static bool bAttkUpSkill;
+        public static bool bAttkCharm;
+        public static bool bAttkTalon;
+        public static bool bAttkSeed;
+        public static bool bDemonDrug;
+
         public static bool AllInputsCorrect()
         {
             if(bAttack && bMotion && bHitzone)
@@ -21,6 +28,23 @@ namespace lms.Calculator
             }
             ShowWarningMessage();
             return false;
+        }
+        
+        public static void CheckDrinkInput(object sender, ref bool type)
+        {
+            RadioButton rb;
+            if(sender != null)
+            {
+                rb = (RadioButton)sender;
+                if (rb.Checked)
+                {
+                    type = true;
+                }
+                else
+                {
+                    type = false;
+                }
+            }
         }
         public static void CheckInput(object sender, ref bool type)
         {

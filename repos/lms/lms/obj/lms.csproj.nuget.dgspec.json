@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\E\\source\\repos\\lms\\lms\\lms.csproj": {}
+    "C:\\Users\\Mc\\Documents\\csharp-learn\\repos\\lms\\lms\\lms.csproj": {}
   },
   "projects": {
-    "C:\\Users\\E\\source\\repos\\lms\\lms\\lms.csproj": {
+    "C:\\Users\\Mc\\Documents\\csharp-learn\\repos\\lms\\lms\\lms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\E\\source\\repos\\lms\\lms\\lms.csproj",
+        "projectUniqueName": "C:\\Users\\Mc\\Documents\\csharp-learn\\repos\\lms\\lms\\lms.csproj",
         "projectName": "lms",
-        "projectPath": "C:\\Users\\E\\source\\repos\\lms\\lms\\lms.csproj",
-        "packagesPath": "C:\\Users\\E\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\E\\source\\repos\\lms\\lms\\obj\\",
+        "projectPath": "C:\\Users\\Mc\\Documents\\csharp-learn\\repos\\lms\\lms\\lms.csproj",
+        "packagesPath": "C:\\Users\\Mc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mc\\Documents\\csharp-learn\\repos\\lms\\lms\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\E\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Mc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
