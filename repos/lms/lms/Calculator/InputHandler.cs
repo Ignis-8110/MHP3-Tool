@@ -15,10 +15,6 @@ namespace lms.Calculator
 
         public static bool bAttkUpDrink;
         public static bool bAttkUpSkill;
-        public static bool bAttkCharm;
-        public static bool bAttkTalon;
-        public static bool bAttkSeed;
-        public static bool bDemonDrug;
 
         public static bool AllInputsCorrect()
         {
