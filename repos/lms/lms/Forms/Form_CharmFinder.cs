@@ -18,7 +18,7 @@ namespace lms.Forms
         private SQLiteConnection sqlConnection;
         private SQLiteCommand sqlCommand;
         private DataTable sqlDT = new DataTable();
-        private DataSet  ds = new DataSet();
+        public DataSet  ds = new DataSet();
         private SQLiteDataAdapter database;
 
 
@@ -37,7 +37,7 @@ namespace lms.Forms
 
         private void InitializeSQLConnection()
         {
-            sqlConnection = new SQLiteConnection("Data Source = C:\\Users\\Mc\\Documents\\csharp-learn\\repos\\lms\\lms\\Resources\\mhp3_charms.db");
+            sqlConnection = new SQLiteConnection("Data Source = C:\\Users\\E\\OneDrive\\GitHub\\MHP3-Tool\\repos\\lms\\lms\\Resources\\mhp3_charms.db");
         }
 
         private void LoadData()
@@ -56,7 +56,7 @@ namespace lms.Forms
             dataGridView1.Columns[4].AutoSizeMode = DataGridViewAutoSizeColumnMode.None;
             dataGridView1.Columns[4].Width = 30;
             sqlConnection.Close();
-            
+
         }
 
         private string FindCharm(bool anySkill, bool skill1, bool skill2, bool slot, bool table)

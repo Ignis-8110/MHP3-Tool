@@ -68,13 +68,13 @@ namespace lms
             {
                 case "Form_DamageCalculator":
                     return "Damage Calculator";
-                    break;
                 case "Form_CharmFinder":
                     return "Charm Finder";
-                    break;
                 case "Form_MonsterDB":
                     return "Monster Database";
-                    break;
+                case "Form_Guide":
+                    return "Guide";
+
             }
             return "";
         }
@@ -93,6 +93,9 @@ namespace lms
             OpenChildForm(new Forms.Form_MonsterDB(), sender);
         }
 
-      
+        private void btnGuide_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Forms.Form_Guide(), sender);
+        }
     }
 }

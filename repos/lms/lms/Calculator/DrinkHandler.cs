@@ -11,9 +11,9 @@ namespace lms.Calculator
     {
         private DrinkHandler()
         {
-            AttackUpLarge = new Drink("Attk Up L", 15);
-            AttackUpMedium = new Drink("Attk Up M", 10);
-            AttackUpSmall = new Drink("Attk Up S", 5);
+            AttackUpLarge = new Drink("Attk Up L", 7);
+            AttackUpMedium = new Drink("Attk Up M", 5);
+            AttackUpSmall = new Drink("Attk Up S", 3);
         }
 
         private static DrinkHandler instance = new DrinkHandler();

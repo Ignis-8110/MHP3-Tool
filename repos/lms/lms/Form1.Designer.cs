@@ -33,6 +33,7 @@
             this.btnFindCharm = new System.Windows.Forms.Button();
             this.btnDamageCalc = new System.Windows.Forms.Button();
             this.panelMenuTop = new System.Windows.Forms.Panel();
+            this.btnGuide = new System.Windows.Forms.Button();
             this.panelTitle = new System.Windows.Forms.Panel();
             this.lblTitle = new System.Windows.Forms.Label();
             this.panelDeskPane = new System.Windows.Forms.Panel();
@@ -47,6 +48,7 @@
             this.panelMenu.Controls.Add(this.btnFindCharm);
             this.panelMenu.Controls.Add(this.btnDamageCalc);
             this.panelMenu.Controls.Add(this.panelMenuTop);
+            this.panelMenu.Controls.Add(this.btnGuide);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
@@ -120,6 +122,25 @@
             this.panelMenuTop.Size = new System.Drawing.Size(220, 100);
             this.panelMenuTop.TabIndex = 0;
             // 
+            // btnGuide
+            // 
+            this.btnGuide.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnGuide.FlatAppearance.BorderSize = 0;
+            this.btnGuide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuide.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnGuide.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnGuide.Image = global::lms.Properties.Resources.icon_weapon_052;
+            this.btnGuide.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGuide.Location = new System.Drawing.Point(0, 280);
+            this.btnGuide.Name = "btnGuide";
+            this.btnGuide.Size = new System.Drawing.Size(220, 60);
+            this.btnGuide.TabIndex = 4;
+            this.btnGuide.Text = "Guide";
+            this.btnGuide.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGuide.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnGuide.UseVisualStyleBackColor = false;
+            this.btnGuide.Click += new System.EventHandler(this.btnGuide_Click);
+            // 
             // panelTitle
             // 
             this.panelTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(155)))), ((int)(((byte)(155)))));
@@ -180,5 +201,6 @@
         private Panel panelTitle;
         public Label lblTitle;
         private Panel panelDeskPane;
+        private Button btnGuide;
     }
 }
