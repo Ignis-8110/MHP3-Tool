@@ -1,0 +1,10 @@
+C:\Users\E\Desktop\lms.exe
+C:\Users\E\Desktop\lms.dll
+C:\Users\E\Desktop\lms.deps.json
+C:\Users\E\Desktop\lms.runtimeconfig.json
+C:\Users\E\Desktop\lms.pdb
+C:\Users\E\Desktop\System.Data.SQLite.dll
+C:\Users\E\Desktop\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Users\E\Desktop\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Users\E\Desktop\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Users\E\Desktop\runtimes\win-x86\native\SQLite.Interop.dll
